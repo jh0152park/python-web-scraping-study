@@ -1,19 +1,15 @@
-def plus(a=0, b=0):
-    return a + b
+def make_juice(fruit):
+    return f"{fruit}+🥤"
 
 
-def minus(a=0, b=0):
-    return a - b
+def add_ice(juice):
+    return f"{juice}+🧊"
 
 
-def mul(a=1, b=1):
-    return a * b
+def add_sugar(iced_juice):
+    return f"{iced_juice}+🧂"
 
-
-def div(a=1, b=1):
-    return a / b
-
-print(f"1 + 1 = {plus(1,1)}")
-print(f"1 - 1 = {minus(1,1)}")
-print(f"1 * 1 = {mul(1,1)}")
-print(f"1 / 1 = {div(1,1)}")
+juice = make_juice("🥝")
+iced_juice = add_ice(juice)
+perfect_juice = add_sugar(iced_juice)
+print(perfect_juice)
