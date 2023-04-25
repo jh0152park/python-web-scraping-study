@@ -1,6 +1,5 @@
-my_name = "park jae hyeon"
-print(my_name)
-boolean = True
-print(boolean)
-boolean = False
-print(boolean)
+name = "nico"
+age = 12
+dead = False
+print("Hello my name is ", name)
+print("and i am ", age, " years old")
