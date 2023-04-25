@@ -1,7 +1,5 @@
-def tax_calculator(money):
-    print(money * 0.35)
+def say_hello(name="Mr.no body"):
+    print("Hello ", name)
 
-tax_calculator(10000000)
-tax_calculator(123456)
-tax_calculator(22412516563341)
-tax_calculator(131230987123)
+say_hello("Jae Hyeon")
+say_hello()
