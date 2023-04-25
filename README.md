@@ -1,2 +1,3 @@
-# python-web-scraping-study
-python web scraping study
+# Python Web Scraping Study
+
+video link : https://nomadcoders.co/python-for-beginners
