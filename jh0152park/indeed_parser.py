@@ -11,7 +11,7 @@ driver.get(URL+TERM)
 
 soup = BeautifulSoup(driver.page_source, "lxml")
 pages = soup.find_all("nav", attrs={"role": "navigation"})[0].find_all("div", attrs={"class": "css-tvvxwd ecydgvn1"})
-pages = 5 if len(pages) > 5 else len(pages)
+pages = 5 if len(pages) > 5 else len(pages) if len(pages) > 0 else 1
 
 for page in range(pages):
     url = f"https://kr.indeed.com/jobs?q=python&start={page*10}"
